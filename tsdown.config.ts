@@ -1,6 +1,6 @@
-import { defineConfig } from 'tsdown'
+import { defineConfig } from "tsdown";
 
 export default defineConfig({
-  platform: 'neutral',
-  // ...config options
-})
+  platform: "browser",
+  format: "esm",
+});
