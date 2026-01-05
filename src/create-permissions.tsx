@@ -72,6 +72,8 @@ export function createPermissions<
     seen.add(role);
 
     const roleConfig = permissions[role];
+    if (!roleConfig) return new Set()
+
     const perms = new Set<Permission>();
 
     roleConfig.can.forEach((p) => {
