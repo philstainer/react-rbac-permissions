@@ -1,17 +1,17 @@
 {
-  "name": "react-components-starter",
+  "name": "react-rbac-permissions",
   "type": "module",
   "version": "0.0.0",
   "description": "A starter for creating a React component library.",
-  "author": "Author Name <author.name@mail.com>",
+  "author": "Phil Stainer",
   "license": "MIT",
-  "homepage": "https://github.com/author/library#readme",
+  "homepage": "https://github.com/philstainer/react-rbac-permissions#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author/library.git"
+    "url": "git@github.com:philstainer/react-rbac-permissions.git"
   },
   "bugs": {
-    "url": "https://github.com/author/library/issues"
+    "url": "https://github.com/philstainer/react-rbac-permissions/issues"
   },
   "exports": {
     ".": "./dist/index.js",
